@@ -1,5 +1,5 @@
 
-# MIzael Vaz
+# Mizael Vaz
 
 # DIO - Trilha .NET - Testes Unitários com C#
 www.dio.me

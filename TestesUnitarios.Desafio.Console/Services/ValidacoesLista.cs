@@ -1,3 +1,5 @@
+
+
 namespace TestesUnitarios.Desafio.Console.Services
 {
     public class ValidacoesLista
@@ -14,7 +16,7 @@ namespace TestesUnitarios.Desafio.Console.Services
             return contem;
         }
 
-        public List<int> MultiplicarNumerosLista(List<int> lista, int numero)
+        public List<int> MulticarNumerosLista(List<int> lista, int numero)
         {
             var listaMultiplicada = lista.Select(x => x * numero).ToList();
             return listaMultiplicada;
@@ -29,5 +31,18 @@ namespace TestesUnitarios.Desafio.Console.Services
         {
             return lista.Min();
         }
+
+        public List<int> MulticarNumerosLista(List<int> lista)
+        {
+           var resultado = new List<int>();
+           foreach(var numero in lista)
+           {
+                resultado.Add(numero * 2);
+           }
+
+            return resultado;
+        }
+
+        
     }
 }
